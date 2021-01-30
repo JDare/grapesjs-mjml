@@ -14,7 +14,6 @@ export default (editor, { dc, coreMjmlModel, coreMjmlView }) => {
       ...coreMjmlModel,
       defaults: {
         name: editor.I18n.t('grapesjs-mjml.components.names.body'),
-        droppable,
         draggable: false,
         copyable: false,
         removable: false,
