@@ -19,7 +19,6 @@ export default (editor, opt = {}) => {
           ],
         }, {
           property: 'padding',
-          detached: true,
           properties: [
             { name: 'Top', property: 'padding-top' },
             { name: 'Right', property: 'padding-right' },
